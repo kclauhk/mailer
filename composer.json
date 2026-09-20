@@ -1,0 +1,16 @@
+{
+	"name": "kclauhk/mailer",
+	"description": "Wrapper for Symfony's Mailer Component",
+	"keywords": ["mailer", "symfony", "wrapper"],
+	"license": "MIT",
+	"require": {
+		"php": ">=8.4.1",
+        "html2text/html2text": "*",
+		"symfony/mailer": "^8.1"
+	},
+	"autoload": {
+		"psr-4": {
+			"MailerWrapper\\": "src/"
+		}
+	}
+}
